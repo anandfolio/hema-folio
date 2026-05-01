@@ -54,4 +54,36 @@
     .markdown-text ul {
         @apply pl-5 mt-2 list-disc;
     }
+
+    .rolling-container {
+        @apply w-full overflow-hidden py-10 bg-black;
+    }
+
+    .rolling-text {
+        @apply whitespace-nowrap font-bold text-white uppercase;
+        font-size: clamp(3rem, 10vw, 8rem);
+        font-family: var(--font-anton);
+        animation: scrollText 20s linear infinite;
+    }
+
+    @keyframes scrollText {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+    .shake {
+        animation: shakeEffect 0.5s;
+    }
+
+    @keyframes shakeEffect {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-10px); }
+        50% { transform: translateX(10px); }
+        75% { transform: translateX(-10px); }
+        100% { transform: translateX(0); }
+    }
 }
