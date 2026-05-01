@@ -42,17 +42,15 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">FRONTEND</span>
-                        <br /> <span className="ml-4">DEVELOPER</span>
+                        <span className="text-primary">CLOUD</span>
+                        <br /> <span className="ml-4">ENGINEER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
-                            Tajmirul
+                            Hemadharshini
                         </span>
-                        . A creative Frontend Developer with 3+ years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        . A passionate Cloud Engineer focused on building scalable cloud solutions, backend systems, and real-time infrastructure.
                     </p>
                     <Button
                         as="link"
@@ -68,26 +66,26 @@ const Banner = () => {
 
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
+                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5 uppercase">
+                            AWS
+                        </h5>
+                        <p className="text-muted-foreground">
+                            Certified
+                        </p>
+                    </div>
+                    <div className="slide-up-and-fade">
+                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
+                            4+
+                        </h5>
+                        <p className="text-muted-foreground">
+                            Cloud Projects Built
+                        </p>
+                    </div>
+                    <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             3+
                         </h5>
-                        <p className="text-muted-foreground">
-                            Years of Experience
-                        </p>
-                    </div>
-                    <div className="slide-up-and-fade">
-                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            7+
-                        </h5>
-                        <p className="text-muted-foreground">
-                            Completed Projects
-                        </p>
-                    </div>
-                    <div className="slide-up-and-fade">
-                        <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            10K+
-                        </h5>
-                        <p className="text-muted-foreground">Hours Worked</p>
+                        <p className="text-muted-foreground">Real-time Systems Developed</p>
                     </div>
                 </div>
             </div>
